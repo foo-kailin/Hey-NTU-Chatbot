@@ -24,7 +24,7 @@ from dbhelper import DBHelper
 
 db = DBHelper()
 
-TOKEN = '1446373870:AAEZTQdFkmUIMa6qNDVo1AngkKZyYcoV4Yw'
+TOKEN = '' #bot api
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 
 #timer
@@ -42,7 +42,7 @@ logger = logging.getLogger(__name__)
 #create a python file called api_key 
 #that contains a dictionary api={"api_key":"your_api_key"}
 #import api_key
-api_key='1446373870:AAEZTQdFkmUIMa6qNDVo1AngkKZyYcoV4Yw'
+api_key=''
 
 def getLastMessage():
     url = "https://api.telegram.org/bot{}/getUpdates".format(api_key)
@@ -668,7 +668,7 @@ def unset(update: Update, context: CallbackContext) -> None:
 def run_timer() -> None:
     """Run bot."""
     # Create the Updater and pass it your bot's token.
-    updater = Updater("1446373870:AAEZTQdFkmUIMa6qNDVo1AngkKZyYcoV4Yw")
+    updater = Updater("")
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
