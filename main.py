@@ -42,7 +42,7 @@ logger = logging.getLogger(__name__)
 #create a python file called api_key 
 #that contains a dictionary api={"api_key":"your_api_key"}
 #import api_key
-api_key=''
+api_key='' # bot api
 
 def getLastMessage():
     url = "https://api.telegram.org/bot{}/getUpdates".format(api_key)
