@@ -11,8 +11,8 @@ import requests
 # SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'] (default)
 SCOPES = ['https://www.googleapis.com/auth/calendar']
 
-api_key='1446373870:AAEZTQdFkmUIMa6qNDVo1AngkKZyYcoV4Yw'
-chat_id = '241239513'
+api_key='' # bot api
+chat_id = ''
 
 def sendMessage(chat_id,text_message):
     url='https://api.telegram.org/bot'+str(api_key)+'/sendMessage?text='+str(text_message)+'&chat_id='+str(chat_id)
