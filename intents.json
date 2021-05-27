@@ -1,0 +1,346 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, how are you doing?",
+        "Hi, what can I do for you?",
+        "Hey there, how can I help?",
+        "Hello :-)"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, hope I helped :-)",
+        "Have a nice day!",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Anytime :-)", "My pleasure!"]
+    },
+    {
+      "tag": "wrong",
+      "patterns": [
+        "Wrong answer",
+        "Incorrect",
+        "Not my question",
+        "Bad response",
+        "Not what I asked"
+      ],
+      "responses": [
+        "Hey... I'm still learning :-( Please rephrase your query and try again."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "ntu map",
+        "campus map",
+        "Where to find campus map?",
+        "Where to get ntu map?",
+        "Where is tutorial room",
+        "Where is tr+",
+        "Where is lecture room",
+        "Where is lt",
+        "Where is my tutorial?",
+        "Where is my lecture?",
+        "Where is my class?",
+        "Where is school",
+        "Where is EEE?",
+        "Where is ADM?",
+        "Where is HASS?",
+        "Where is NBS?",
+        "Where is SPMS?",
+        "Where is wee kim wee",
+        "Where is Northspine?",
+        "Where is Southspine?",
+        "Lounge",
+        "Sports hall",
+        "Student Activities Centre SAC",
+        "Library",
+        "Canteen",
+        "Study rooms",
+        "Where is hall"
+      ],
+      "responses": [
+        "To locate your destination, you can access the NTU interactive map through this link: https://maps.ntu.edu.sg/ \n\nRemember to enable your location services for real-time directions!"
+      ]
+    },
+    {
+      "tag": "AYCalendar",
+      "patterns": [
+        "Where can I find the academic calendar?",
+        "When is recess week?",
+        "When is school holiday?",
+        "Academic calendar",
+        "AY2020-21 calendar",
+        "This week is week what?"
+      ],
+      "responses": [
+        "You may access the academic calendar through this link to view your academic schedule and breaks:\nhttps://www.ntu.edu.sg/admissions/matriculation/academic-calendars"
+      ]
+    },
+    {
+      "tag": "academic",
+      "patterns": [
+        "What is academic unit?",
+        "What are academic units?",
+        "Academic structure",
+        "Period of study",
+        "Graduation requirements",
+        "AU requirements",
+        "How many AUs do I need?"
+      ],
+      "responses": [
+        "You may access this link to view the academic structure for all NTU courses:\nhttps://www.ntu.edu.sg/admissions/matriculation/academic-structure"
+      ]
+    },
+    {
+      "tag": "semester",
+      "patterns": [
+        "What is a semester?",
+        "How long is a semester?",
+        "Are all semesters the same?",
+        "one sem",
+        "one semester"
+      ],
+      "responses": [
+        "Every academic year is divided into two semesters. Each semester includes 13 teaching weeks in total and 3 weeks for revision and examinations."
+      ]
+    },
+    {
+      "tag": "GPA",
+      "patterns": [
+        "What is GPA?",
+        "Grade Point Average System (GPA)",
+        "GPA system",
+        "NTU grading system",
+        "How to calculate GPA?",
+        "How to calculate CGPA?",
+        "What is grading in ntu?",
+        "How does ntu grade?",
+        "How does gpa work?",
+        "How does grading work?",
+        "How are we graded in ntu?"
+      ],
+      "responses": [
+        "NTU uses the Grade Point Average System (GPA) for grading.\nGrades and grade points are assigned as follows:\n A plus         5.00\n A                  5.00\n A minus      4.50\n B plus          4.00\n B                  3.50\n B minus      3.00\n C plus         2.50\n C                  2.00\n D plus         1.50\n D                 1.00\n F                  0.00\n\nComputation of overall GPA is as follows:\n(Sum of [Grade Point x AU] for Course 1...X) / (Total AU attempted in all the semesters so far)"
+      ]
+    },
+    {
+      "tag": "matriculation",
+      "patterns": [
+        "What is matriculation?",
+        "How to matriculate?",
+        "Matriculation process",
+        "Matriculation procedure",
+        "New student"
+      ],
+      "responses": [
+        "If you are a new student enrolling into NTU, you can use this link to obtain important information and deadlines regarding the matriculation process:\nhttps://www.ntu.edu.sg/admissions/matriculation#Content_C006_Col01"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Course structure",
+        "Curriculum structure",
+        "Undergraduate programmes",
+        "Degree programmes",
+        "Program structure",
+        "Course information",
+        "more about the curriculum",
+        "more about the course"
+      ],
+      "responses": [
+        "You may use this link to view the degree programmes provided in NTU and read more details about each course:\nhttps://www.ntu.edu.sg/education/degree-programmes#Content_C109_Col01"
+      ]
+    },
+    {
+      "tag": "NTU",
+      "patterns": [
+        "Ntu website",
+        "school portal",
+        "learning hub",
+        "ntulearn website",
+        "intu website",
+        "ntu home",
+        "ntu portal"
+      ],
+      "responses": [
+        "Here are the links to the various NTU portals:\n\nNTU website: https://www.ntu.edu.sg/\nNTUlearn (learning hub): https://ntulearn.ntu.edu.sg/\niNTU (useful links): https://www3.ntu.edu.sg/cits2/iNTU.html"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me",
+        "Tell me something motivational",
+        "I feel unmotivated",
+        "Motivational quotes",
+        "Give me motivation",
+        "Why am I so unmotivated?"
+      ],
+      "responses": [
+        "You can do this. I believe in you!",
+        "Nothing worth having comes easy. Push ON!",
+        "Trust the process. Your hard work will pay off.",
+        "Never give up! You are more than this.",
+        "Don't give up! You've come so far and you're capable of achieving even more.",
+        "Hang in there! Everything will be worth it.",
+        "Difficult roads often lead to beautiful destinations.",
+        "Sow the seeds of hard work and you will reap the fruits of success."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Ntu contact",
+        "How do I contact ntu?",
+        "ntu email",
+        "ntu contact number",
+        "I want to report incident",
+        "report security incident",
+        "How to report issue?",
+        "call ntu",
+        "contact help"
+      ],
+      "responses": [
+        "Here's a complete list of contact numbers and emails you can use to get in touch with the various NTU departments if you need help: https://www.ntu.edu.sg/about-us/contact-us"
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "Where is ntu?",
+        "what is ntu's address?",
+        "ntu address",
+        "Is ntu in boonlay?",
+        "ntu location",
+        "ntu mrt station",
+        "How to get to ntu?",
+        "directions to ntu"
+      ],
+      "responses": [
+        "Nanyang Technological University\n50 Nanyang Avenue, Singapore 639798\n\nGetting to NTU by car:\nThe university is located right by the PIE. There are two entrances when travelling via the PIE, take either the Jalan Bahar entrance (Exit 36) or the Pioneer North entrance (Exit 38) to enter the campus.\n\nGetting to NTU by bus:\nService 179 and 199 from Boon Lay Bus Interchange (next to Boon Lay MRT Station) to the University. The services ply from 0600-2400 hrs on weekdays and Saturdays, and from 0630-0020hrs on Sundays and Public Holidays.\n\nGetting to NTU by train:\nThe nearest train stations to NTU are Boon Lay (EW27) and Pioneer (EW28) on the East-West Line. From Boon Lay station, make your way to the adjacent bus interchange. Services 179 and 199 will take you in to NTU. From Pioneer station, hop on the Campus Rider which stops in front of Blk 649A, Jurong West Street 61, Singapore 641649."
+      ]
+    },
+    {
+      "tag": "shuttle",
+      "patterns": [
+        "Ntu shuttle bus service",
+        "campus shuttle bus",
+        "what shuttle bus do I take?",
+        "where is campus red?",
+        "where is campus blue?",
+        "where is campus rider?",
+        "where to take campus bus?",
+        "when does campus bus come?",
+        "campus bus timing"
+      ],
+      "responses": [
+        "There are three shuttle bus routes serving the campus. Campus Loop - Blue (CL-B) and Campus Loop - Red (CL-R) circle the campus with Campus Rider (CR) venturing off-campus to and from Pioneer MRT station. On weekends and holidays, Campus Rider becomes Campus Weekend Rider with an extended route.\n\nFor more details and timings of the campus shuttle, click here: https://www.ntu.edu.sg/life-at-ntu/visiting-ntu/internal-campus-shuttle"
+      ]
+    },
+    {
+      "tag": "carpark",
+      "patterns": [
+        "Where is the carpark?",
+        "Where to find carpark?",
+        "where can I park in ntu?",
+        "ntu carpark zones",
+        "what is the parking fee?",
+        "What are the carpark charges in ntu?",
+        "Parking charges in ntu",
+        "free parking in ntu"
+      ],
+      "responses": [
+        "There are 5 different carpark zones in campus for all students, staff, and visitors. To view the carpark zones and parking charges in NTU, click here: https://www.ntu.edu.sg/life-at-ntu/visiting-ntu/carpark-zones-charges"
+      ]
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+        "When is finals?",
+        "When is exam period?",
+        "When are exams?",
+        "How to check my exam schedule?",
+        "Where to find exam timetable?",
+        "Where to get exam schedule?",
+        "How to check exam timetable?",
+        "Where to check exam seating arrangement?",
+        "How to check exam location?"
+      ],
+      "responses": [
+        "Final examinations will be conducted within the next 3 weeks after the 13-weeks school semester ends. Your exam schedule will be listed below your timetable in NTU STARS once your modules are added. You may check your schedule and plan your revisions wisely. To view your exam schedule in STARS, click [here](https://wish.wis.ntu.edu.sg/pls/webexe/ldap_login.login?w_url=https://wish.wis.ntu.edu.sg/pls/webexe/aus_stars_planner.main).\n\nExact details such as exam location and seating arrangement will be available nearer to the exam period. You will receive an email when that is out so do check your NTU email before finals!"
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "Where to check timetable?",
+        "What is my timetable?",
+        "How do I check my timetable?"
+      ],
+      "responses": [
+        "You can check your confirmed timetable for the semester in [NTU STARS](https://wish.wis.ntu.edu.sg/pls/webexe/ldap_login.login?w_url=https://wish.wis.ntu.edu.sg/pls/webexe/aus_stars_planner.main) after your add/drop period."
+      ]
+    },
+    {
+      "tag": "adddrop",
+      "patterns": [
+        "When is add drop period?",
+        "How to add drop modules?",
+        "What is add/drop period?",
+        "add/drop",
+        "How to add modules?",
+        "How to drop modules?"
+      ],
+      "responses": [
+        "Add drop period happens during the first two weeks of the academic semester. During which, students will be able to add modules that they have failed to get during the course registration period. Students can also drop modules which they have already added into their timetable. If you choose to drop a module, you may not be able to add the module back. Success of adding modules during add drop period is entirely up to availability.\n\nLook out for the email at the start of each semester telling you when is the add drop period. You can log in to your [STARS](https://wish.wis.ntu.edu.sg/pls/webexe/ldap_login.login?w_url=https://wish.wis.ntu.edu.sg/pls/webexe/aus_stars_planner.main) to add or drop modules anytime within the add drop period."
+      ]
+    },
+    {
+      "tag": "degreeaudit",
+      "patterns": [
+        "Where to check my results?",
+        "Where to check exam results?",
+        "How to view exam grade?",
+        "examination results",
+        "When will exam results be out?",
+        "When are exam grades released?",
+        "Degree audit",
+        "Where to find my degree audit?"
+      ],
+      "responses": [
+        "Typically, exam results will be out within a month after your exams end. You will receive an email notifying you when your results are out. You can check your [degree audit](https://wish.wis.ntu.edu.sg/pls/webexe/DARS_RESULT_RO.main_display) to view your grades for each semester, as well as your overall CGPA."
+      ]
+    },
+    {
+      "tag": "ue",
+      "patterns": [
+        "What ue to take?",
+        "What is ue?",
+        "unrestricted electives",
+        "How do I take ue?"
+      ],
+      "responses": [
+        "Unrestricted electives (UEs) are modules outside of your standard curriculum that you can choose based on interest. Not all modules in NTU are available as a UE. To check, you can click on the module name in your [STARS](https://wish.wis.ntu.edu.sg/pls/webexe/ldap_login.login?w_url=https://wish.wis.ntu.edu.sg/pls/webexe/aus_stars_planner.main) before adding it into your timetable."
+      ]
+    }
+  ]
+}
